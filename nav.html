@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transparent Navbar with Background Image Overlay</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Great+Vibes&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+    
+</head>
+<style>
+    /* Position the background image with overlay text */
+.overlay-container {
+    position: relative;
+}
+
+.overlay-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Adjust the text color */
+    text-align: center;
+    width: 100%;
+}
+
+</style>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent">
+            <a class="navbar-brand" href="/"><img src="/assets/a.png" class="img-fluid" alt="Logo"
+                width="100px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="background-color:black;"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto" style="background-color: black;padding:10px 10px 10px 10px;">
+                    <li class="nav-item active" >
+                        <a class="nav-link" href="/" >HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/service.html" >SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html" >ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/portfolio.html" >PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html" >CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  style="color: gold;"
+                            href="https://www.welns.io/product/booking/WFRCHN000016647?bk_src=WI104">BOOK
+                            NOW</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row overlay-container">
+                <img id="backgroundimage" src="/assets/hero_slider_05.jpg" class="img-fluid">
+                <div class="overlay-text">
+                    <div class="headertext">
+                        <!-- <h1 style=" font-size: 13.75em;">Color</h1> -->
+                        <!-- <p style="font-size:5em;"> PERFECT CUT</p> -->
+                        <!-- <h3>HAIR LOVERS</h3> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" style="background-color: black; height:110vh;">
+        <div class="row">
+            <div class="col-md-6">
+                <center>
+                    <h2 style="color: #D4A977;padding-top:50px;">Stash</h2>
+                    <h6 style="color: #D4A977;">Chrompet</h6>
+
+                    <div style="color: #fff; padding-left:30px;">
+                        <h5>No.04 first floor, subraya nagar</h5>
+                        <h5>Thiruneermalai main road</h5>
+                        <h5>chrompet-44</h5>
+    
+                        <h5 ><b>CONTACT:</b> +91 84019 55500</h5>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3888.222041375165!2d80.12170287507621!3d12.957638887356442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDU3JzI3LjUiTiA4MMKwMDcnMjcuNCJF!5e0!3m2!1sen!2sin!4v1703761041731!5m2!1sen!2sin"
+                        width="500"style="border:0;  padding-top:20px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="img-fluid"></iframe>
+                    
+                </center>
+
+
+
+            </div>
+            <div class="col-md-6">
+                <center>
+
+                   
+                    <div>
+                        <h2 style="color: #D4A977;padding-top:50px;">Stash</h2>
+                        <h6 style="color: #D4A977;">Thirumudivakkam</h6>
+                        <div style="color: #fff;">
+                            <h5 >No-4 Ground Floor, Glub Aurum Building,</h5>
+                            <h5 >The Royal Castle Campus,</h5>
+                            <h5 >Thirumudivakkam-44</h5>
+        
+                            <h5><b>CONTACT:</b> +91 7824-855500</h5>
+                        </div>
+        
+                        <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0767682023316!2d80.0970543!3d12.9669394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f5e6b3386271%3A0x3882417867ce176!2sThe%20Stash-Unisex%20Salon!5e0!3m2!1sen!2sin!4v1703759760568!5m2!1sen!2sin"
+                        width="500"style="border:0; padding-top:20px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="img-fluid"></iframe>
+                        
+              
+
+    
+                    </div>
+
+                </center>
+               
+              
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-6 ">
+                    <div>
+                        <div style="padding-top: 100px;">
+                            <h3 style="margin-left:50px ;">Your are welcome</h3>
+                            <h1>OPENING HOURS</h1>
+                            <div style="margin-left: 100px;">
+                                <a href="https://www.welns.io/product/booking/WFRCHN000016647?bk_src=WI104"> <BUtton class="btn1">BOOK NOW</BUtton></a>
+                                
+                            </div>
+                        </div>
+    
+    
+                    </div>
+                </div>
+    
+                <div class="col-md-6" style="padding-top: 100px;">
+                    <div >
+                        <h3>WORKING DAYS /
+                            09:00-AM-09:00-PM</h3>
+                        <h3>SATURDAY /
+                            09:00-AM-09:00-PM</h3>
+                        <h3>SUNDAY /
+                            09:00-AM-09:00-PM</h3>
+                          
+    
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+   
+
+    <div class="bodys">
+        <div class="slider">
+            <div class="slide-track">
+            <div class="slide">
+            <img src="/assets/brand 1.jpg" alt="" height="100" width="200">
+            </div>
+            <div class="slide">
+            <img src="/assets/brand 2.jpg" height="100" width="200" alt="" />
+            </div>
+            <div class="slide">
+            <img src="/assets/brand 3.jpg" height="100" width="200" alt="" />
+            </div>
+            <div class="slide">
+            <img src="/assets/brand 4.jpg" height="100" width="200" alt="" />
+            </div>
+            <div class="slide">
+            <img src="/assets/brand 5.jpg" height="100" width="200" alt="" />
+            </div>
+            <div class="slide">
+            <img src="/assets/brand 6.jpg" height="100" width="200" alt="" />
+            </div>
+            <div class="slide">
+            <img src="/assets/brand 7.jpg" height="100" width="200" alt="" />
+            </div>
+            <div class="slide">
+            <img src="/assets/brand 8.jpg" height="100" width="200" alt="" />
+            </div>
+            <div class="slide">
+            <img src="/assets/brand 9.jpg" height="100" width="200" alt="" />
+            </div>
+            <div class="slide">
+            <img src="/assets/brand 10.jpg" height="100" width="200" alt="" />
+            </div>
+            <div class="slide">
+            <img src="/assets/brand 11.jpg" height="100" width="200" alt="" />
+            </div>
+            <div class="slide">
+            <img src="/assets/brand 12.jpg" height="100" width="200" alt="" />
+            </div>
+            <div class="slide">
+            <img src="/assets/brand 13.png" height="100" width="200" alt="" />
+            </div>
+            <div class="slide">
+            <img src="/assets/brand 14.jpg" height="100" width="200" alt="" />
+            </div>
+            <div class="slide">
+            <img src="/assets/brand 15.jpg" height="100" width="250" alt="" />
+            </div>
+            </div>
+            </div>
+    
+    </div>
+   
+
+    <div class="container-fluid footerrow">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="/assets/stash logo.png" width="300px">
+            </div>
+            <div class="col-md-6">
+                <h3>Stay informed about our monthly promotions, products & more.</h3>
+                <input type="email" class="horizontal-line-input" placeholder="e-mail address here">
+                <div class="row">
+                    <div class="col-md-6" >
+                        <ul >
+                            <a href="index.html" style="text-decoration: none;">
+                                <li style="color:#fff;">HOME</li>
+                            </a>
+                            <a href="about.html" style="text-decoration: none;">
+                                <li style="color:#fff;">ABOUT US</li>
+                            </a>
+                            <a href="contact.html" style="text-decoration: none;">
+                                <li style="color:#fff;"> CONTACT US</li>
+                            </a>
+                            <a href="service.html" style="text-decoration: none;">
+                                <li style="color:#fff;"> SERVICES</li>
+                            </a>
+                            <a href="blog.html"style="text-decoration: none;">
+                                <li style="color:#fff;">BLOG</li>
+                            </a>
+                            <a href="portfolio.html" style="text-decoration: none;">
+                                <li style="color:#fff;">PORTFOLIO</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Thestashchennai@gmail.com</li>
+                            <li>CHROMPET & THIRUMUDIVAKKAM</li>
+                            <li>+91 84019 55500 & +91 7824-855500</li>
+
+                        </ul>
+                        <div style="display:flex; gap:20px;"">
+                    
+                    <a href=" https://www.instagram.com/stashsalons?igsh=MjNxaDRzdTVjeW03"><i
+                                class="fa-brands fa-3x fa-instagram" style="color: #D4A977;"></i></a>
+                            <a href=" "><i class="fa-brands fa-3x fa-facebook" style="color: #D4A977;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+              // Change images every 3 seconds
+              var images = [
+
+              "/assets/hero_slider_03.jpg",
+              "/assets/hero_slider_05.jpg",
+              // Add more image URLs as needed
+          ];
+   
+          var currentIndex = 0;
+   
+          function changeImage() {
+              document.getElementById("backgroundimage").src = images[currentIndex];
+              
+              currentIndex = (currentIndex + 1) % images.length;
+              setTimeout(changeImage, 3000); // Change image every 3 seconds
+          }
+          window.onload = changeImage;
+    </script>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

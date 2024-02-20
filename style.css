@@ -1,0 +1,252 @@
+
+.footerrow {
+    background-color: #000204; /* Set your desired background color */
+    padding: 90px;
+    color: #ffffff; /* Set your desired text color */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+.form-container {
+    padding: 20px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h3 {
+    margin-top: 10px;
+}
+.horizontal-line-input {
+    border: none;
+    border-bottom: 1px solid #ced4da; /* Set your desired line color */
+    outline: none;
+    background-color: transparent;
+    margin-bottom: 15px; /* Adjust margin as needed */
+    padding: 5px 0; /* Adjust padding as needed */
+}
+.btn-register{
+    background-color: black;
+    color:white;
+    border-color: #ced4da;
+}
+
+.headertext h1{
+    font-size: 100px;
+    color:rgb(149, 132, 35);
+
+}
+
+.headertext p{
+    font-size: 50px;
+
+}
+.headertextabout h1{
+    font-size: 100px;
+    color:rgb(149, 132, 35);
+}
+
+
+.overlay-text2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.overlay-text2 h3, h1 {
+    margin: 0;
+}
+.card {
+    display: flex;
+    overflow: hidden;
+    border: none; /* Remove default card border */
+}
+
+.card img {
+    width: 50%;
+    height: auto;
+    display: block;
+    float: left;
+}
+
+.card-text {
+    width: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.priceabout{
+    padding: 40px;
+    margin-left: 50px;
+    font-size: 20px;
+    
+}
+.aboutprice{
+    background-color: #000204;
+    color: #f2f6f9;
+}
+.gaboutfont::before{
+    content: 'G';
+    font-size: 20.75em;
+    opacity: 0.15;
+    color: #afa3a3; /* Set text color to white for better visibility */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.gaboutfont{
+    text-align: center;
+    padding-top: 100px;
+    background-color: white;
+    color: #000204;
+}
+.aboutjoin{
+    text-align: center;
+    padding-top: 150px;
+}
+.aboutimg{
+    text-align: center;
+    padding-top:60px;
+}
+.aboutclientlogo{
+    background-color: #f2f6f9;
+}
+.aboutbgtext{
+    color: #000204;
+    margin-left: 400px;
+}
+.serviceblack{
+    background-color: #000204;
+    width: 600px;
+  height:300px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.btn1{
+    background-color: #000204;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 50px;
+    padding:5px 20px ;
+}
+.btn2{
+    background-color: #000204;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 50px;
+    padding:5px 20px ;
+    margin-left: 45px;
+}
+.bg-color{
+background-color: #000204;
+}
+
+.black{
+    background-color: #000204;
+    display: flex;
+    justify-content: space-between;
+}
+.bg-img{
+    background-image: url(/saloon2/images/card_image_03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    
+
+}
+
+
+.white{
+background-color: #fff;
+
+}
+
+.aboutclientlogo {
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    width: max-content;
+    animation: slide 30s linear infinite; 
+    
+}
+
+.img-fluid {
+    margin-right: 20px; /* Adjust the spacing between logos as needed */
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(calc(-100% + 20px));
+    }
+    
+    /* Ensure a smooth transition from the last image to the first one */
+    100.1% {
+        transform: translateX(0%);
+    }
+}
+    
+.white{
+    background-color: #fff;
+    height: 40vh;
+    position: relative;
+    
+}
+.up{
+    position: absolute;
+    top: 90px;
+    left: 200px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+}
+.tag{
+    display: flex;
+    justify-content: center;
+}
+
+.para-line{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.para1{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.para{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.para2{
+    margin-left: 350px;
+    margin-right: 400px;
+    
+}
+.btn-artist{
+   
+    color:black;
+    background-color: #D4A977;
+    border: none;
+}

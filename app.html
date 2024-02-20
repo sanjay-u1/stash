@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 56px; /* Adjust this value based on your navbar height */
+            background-image: url('/assets/your_new_background_image.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+           
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.7); /* Adjust the background color and transparency */
+        }
+
+        .navbar-dark .navbar-toggler-icon {
+            background-color: #fff; /* Adjust the color of the navbar toggler icon */
+        }
+
+        .overlay-container {
+            position: relative;
+        }
+
+        .bgimage {
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff; /* Adjust the text color */
+            text-align: center;
+        }
+
+        .headertext {
+            /* Your existing styles for the header text */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="/"><img src="/assets/stash logo@2x.png" class="img-fluid" alt="Logo"
+                width="100px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/service.html">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog.html">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/portfolio.html">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="https://www.welns.io/product/booking/WFRCHN000016647?bk_src=WI104">BOOK
+                        NOW</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+
+        <div class="image">
+            <div class="row headercol">
+                <div class="row overlay-container">
+                    <img src="/assets/hero_slider_05.jpg" class="bgimage" alt="Background Image">
+                    <div class="overlay-text">
+                        <div class="headertext">
+          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery (make sure to include them before closing the body tag) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .aboutclientlogo {
+            white-space: nowrap;
+            overflow: hidden;
+            display: flex;
+            width: max-content;
+            animation: slide 30s linear infinite;
+        }
+
+        .client-logo {
+            margin-right: 20px; /* Adjust the spacing between logos as needed */
+            width: auto;
+            max-height: 100px; /* Set a maximum height for the logos */
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateX(0%);
+            }
+
+            100% {
+                transform: translateX(calc(-100% + 20px));
+            }
+
+            /* Ensure a smooth transition from the last image to the first one */
+            100.1% {
+                transform: translateX(0%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <div class="container">
+        <div class="row flex-nowrap overflow-hidden scroll-container aboutclientlogo" id="clientLogosContainer">
+        </div>
+    </div> -->
+
+
+    <div class="container-fluid">
+        <div class="row" style="background-color: black; height: 800px; background-size: cover; background-position: center; background-repeat: no-repeat;">
+            <div class="col-md-12 d-flex align-items-center justify-content-center">
+                <div class="row threecard text-dark">
+                    <div class="col-md-3 space-1 col-sm-12 mb-3 mb-sm-0">
+                        <img src="/images/Layer 2.png" alt="" width="50px" height="70px">
+                        <h2>CONTACT</h2>
+                        <h6>+91 7824-855500<br>+91 84019 55500 Thestashchennai@gmail.com</h6>
+                        <a href="contact.html" class="btn btn-artist">Get in touch</a>
+                    </div>
+                    <div class="col-md-3 space col-sm-12 mb-3 mb-sm-0">
+                        <img src="/images/Layer 3.png" alt="" width="50px" height="70px">
+                        <h2>PRODUCTS</h2>
+                        <h6>Designed to maintain your current color and blend out.</h6>
+                        <button class="btn btn-artist">Shop now</button>
+                    </div>
+                    <div class="col-md-3 space-2 col-sm-12">
+                        <img src="/images/Layer 4.png" alt="" width="50px" height="70px">
+                        <h2>THE SALON</h2>
+                        <h6>CHROMPET, THIRUMUDIVAKKAM</h6>
+                        <a href="contact.html" class="btn btn-artist">View map</a>
+                    </div>
+                    <div class="col-md-3 space-2 col-sm-12">
+                        <img src="/images/Layer 4.png" alt="" width="50px" height="70px">
+                        <h2>THE SALON</h2>
+                        <h6>CHROMPET, THIRUMUDIVAKKAM</h6>
+                        <a href="contact.html" class="btn btn-artist">View map</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <!-- Bootstrap JS and jQuery (make sure to include them before closing the body tag) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        var clientLogos = [
+            "/assets/client-logo-01.png",
+            "/assets/client-logo-02.png",
+            "/assets/client-logo-03.png",
+            "/assets/client-logo-04.png",
+            "/assets/client-logo-05.png"
+        ];
+
+        var clientLogosContainer = document.getElementById("clientLogosContainer");
+
+        for (var i = 0; i < clientLogos.length; i++) {
+            var logoImg = document.createElement("img");
+            logoImg.src = clientLogos[i];
+            logoImg.className = "img-fluid client-logo";
+            clientLogosContainer.appendChild(logoImg);
+        }
+    </script>
+</body>
+
+</html>
+

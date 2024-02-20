@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Stast Salon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Great+Vibes&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        padding-top: 56px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.7); 
+       
+    }
+
+    .navbar-dark .navbar-toggler-icon {
+       
+    }
+
+    .overlay-container {
+        position: relative;
+    }
+
+    .bgimage {
+        width: 100%;
+        height: auto;
+    }
+
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-align: center;
+       
+    }
+
+    /*.headertext {
+    }
+
+    .aboutclientlogo {
+        white-space: nowrap;
+        overflow: hidden;
+        display: flex;
+        width: max-content;
+        animation: slide 30s linear infinite;
+    }
+
+    .client-logo {
+        margin-right: 20px;
+        width: auto;
+        max-height: 100px;
+    }
+
+    @keyframes slide {
+        0% {
+            transform: translateX(0%);
+        }
+
+        100% {
+            transform: translateX(calc(-100% + 20px));
+        }
+
+       
+        100.1% {
+            transform: translateX(0%);
+        }
+
+
+        
+    }*/
+</style>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-white">
+            <a class="navbar-brand" href="/"><img src="/assets/a.png" class="img-fluid" alt="Logo"
+                width="100px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="background-color:black;"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active" >
+                    <a class="nav-link" href="/" style="color: black;">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/service.html" style="color: black;">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html" style="color: black;">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog.html" style="color: black;">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/portfolio.html" style="color: black;">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html" style="color: black;">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"  style="color: gold;"
+                        href="https://www.welns.io/product/booking/WFRCHN000016647?bk_src=WI104">BOOK
+                        NOW</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row overlay-container">
+                <img id="backgroundimage" src="/assets/hero_slider_05.jpg" class="img-fluid">
+                <div class="overlay-text">
+                    <div class="headertext">
+                        <!-- <h1 style=" font-size: 13.75em;">Color</h1> -->
+                        <!-- <p style="font-size:5em;"> PERFECT CUT</p> -->
+                        <!-- <h3>HAIR LOVERS</h3> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+        
+     
+<!-- <div class="container mt-5">
+    <div id="clientLogoCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <center>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/client-logo-01.png" class="img-fluid client-logo" alt="Client Logo 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/client-logo-02.png" class="img-fluid client-logo" alt="Client Logo 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/client-logo-03.png" class="img-fluid client-logo" alt="Client Logo 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/client-logo-04.png" class="img-fluid client-logo" alt="Client Logo 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/client-logo-05.png" class="img-fluid client-logo" alt="Client Logo 5">
+                </div>
+            </div>
+        </center>
+      
+        <button class="carousel-control-prev" type="button" data-bs-target="#clientLogoCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#clientLogoCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div> -->
+<!--  -->
+<div class="bodys">
+    <div class="slider">
+        <div class="slide-track">
+        <div class="slide">
+        <img src="/assets/brand 1.jpg" alt="" height="100" width="200">
+        </div>
+        <div class="slide">
+        <img src="/assets/brand 2.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+        <img src="/assets/brand 3.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+        <img src="/assets/brand 4.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+        <img src="/assets/brand 5.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+        <img src="/assets/brand 6.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+        <img src="/assets/brand 7.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+        <img src="/assets/brand 8.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+        <img src="/assets/brand 9.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+        <img src="/assets/brand 10.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+        <img src="/assets/brand 11.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+        <img src="/assets/brand 12.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+        <img src="/assets/brand 13.png" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+        <img src="/assets/brand 14.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+        <img src="/assets/brand 15.jpg" height="100" width="250" alt="" />
+        </div>
+        </div>
+        </div>
+
+</div>
+<!--  -->
+
+
+
+  
+    <div class="container-fluid" style="background-color: black;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row overlay-container">
+                        <img id="background" src="/assets/hero_slider_05.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+    <div class="container-fluid">
+        <div class="row" style="background-color:black;color:white;padding:50px;" >
+            <div class="col-md-12 row hover" style="cursor: pointer;">
+                <div class="col price" onclick="togglePricelist('cuts')">MEN</div>
+                <div class="col price" onclick="togglePricelist('styles')">WOMEN</div>
+                <div class="col price" onclick="togglePricelist('coloring')">NAIL</div>
+    
+            </div> <br><br>
+            <div class="row pricelist cuts">
+                <div class="col-sm-6">
+                    <img src="assets/Men Price List PDF - LQ_page-0002 a.jpg" alt="" class="img-fluid" width="600px">
+                   
+                </div>
+                <div class="col-sm-6">
+                    <img src="assets/Men Price List PDF - LQ_page-0003 h.jpg" alt="" class="img-fluid" width="600px">
+                  
+                </div>
+    
+                <div class="col-md-6">
+                    <img src="assets/Men Price List PDF - LQ_page-0004 g.jpg" alt="" class="img-fluid" width="600px">
+                    
+    
+                </div>
+                <div class="col-sm-6">
+                    <img src="assets/Men Price List PDF - LQ_page-0005 f.jpg" alt="" class="img-fluid" width="600px">
+                   
+                </div>
+                <div class="col-sm-6">
+                    <img src="assets/Men Price List PDF - LQ_page-0006 e.jpg" alt="" class="img-fluid" width="600px">
+                   
+                </div>
+    
+                <div class="col-md-6">
+                    <img src="assets/Men Price List PDF - LQ_page-0008 d.jpg" alt="" class="img-fluid" width="600px">
+                   
+    
+                </div>
+    
+                <div class="col-sm-6">
+                    <img src="assets/Men Price List PDF - LQ_page-0009c.jpg" alt="" class="img-fluid" width="600px">
+                    
+                </div>
+    
+                <div class="col-md-6">
+                    <img src="assets/Men Price List PDF - LQ_page-0010 b.jpg" alt="" class="img-fluid" width="600px">
+                   
+                </div>
+               
+            </div>
+            <div class="row pricelist styles" style="display:none;">
+                <div class="col-sm-6">
+                    <img src="assets/Women Price List PDF-LQ (1)_page-0002 (2).jpg" alt="" class="img-fluid" width="600px">
+                    
+                   
+                </div>
+                <div class="col-sm-6">
+                    <img src="assets/Women Price List PDF-LQ (1)_page-0003 (1) (2).jpg" alt="" class="img-fluid" width="600px">
+                   
+                </div>
+                <div class="col-sm-6">
+                    <img src="assets/Women Price List PDF-LQ (1)_page-0004 (2).jpg" alt="" class="img-fluid" width="600px">
+                   
+                </div>
+                <div class="col-sm-6">
+                    <img src="assets/Women Price List PDF-LQ (1)_page-0005 (1).jpg" alt="" class="img-fluid" width="600px">
+                   
+                </div>
+                <div class="col-sm-6">
+                    <img src="assets/Women Price List PDF-LQ (1)_page-0006 (1) (1).jpg" alt="" class="img-fluid" width="600px">
+                   
+                </div>
+                <div class="col-sm-6">
+                    <img src="assets/Women Price List PDF-LQ (1)_page-0009 (1).jpg" alt="" class="img-fluid" width="600px">
+                   
+                </div>
+                <div class="col-sm-6">
+                    <img src="assets/Women Price List PDF-LQ (1)_page-0010 (1) (1).jpg" alt="" class="img-fluid" width="600px">
+                   
+                </div>
+                <div class="col-sm-6">
+                    <img src="assets/Women Price List PDF-LQ (1)_page-0011.jpg" alt="" class="img-fluid" width="600px">
+                   
+                </div>
+                <div class="col-sm-6">
+                    <img src="assets/Women Price List PDF-LQ (1)_page-0012.jpg" alt="" class="img-fluid" width="600px">
+                   
+                </div>
+                <div class="col-sm-6">
+                    <img src="assets/Women Price List PDF-LQ (1)_page-0013 copy.jpg" alt="" class="img-fluid" width="600px">
+                   
+                </div>
+                <div class="col-sm-6">
+                    <img src="assets/Women Price List PDF-LQ (1)_page-0014 copy.jpg" alt="" class="img-fluid" width="600px">
+                   
+                </div>
+                <div class="col-sm-6">
+                    <img src="assets/Women Price List PDF-LQ (1)_page-0015 copy.jpg" alt="" class="img-fluid" width="600px">
+                   
+                </div>
+                <div class="col-sm-6">
+                    <img src="assets/Women Price List PDF-LQ (1)_page-0016 copy.jpg" alt="" class="img-fluid" width="600px"> 
+                   
+                </div>
+    
+             
+            </div>
+    
+            <div class="row pricelist coloring" style="display:none; background-color:black;" >
+                <div class="col-sm-6">
+                    <img src="assets/Nail Art Menu draft lq_page-0002c.jpg" alt="" class="img-fluid" width="600px">
+                   
+                 
+                </div>
+    
+                <div class="col-sm-6">
+                    
+                    <img src="assets/Nail Art Menu draft lq_page-0003 d.jpg" alt="" class="img-fluid" width="600px">
+    
+                </div>
+    
+    
+    
+               
+            </div>
+        </div>
+    </div>
+  
+    <!--  -->
+
+
+
+    <div class="container-fluid footerrow">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="/assets/The Stash Logo 04-02 (1) (1).jpg" width="300px">
+            </div>
+            <div class="col-md-6">
+                <h3>Stay informed about our monthly promotions, products & more.</h3>
+                <input type="email" class="horizontal-line-input" placeholder="e-mail address here">
+                <div class="row">
+                    <div class="col-md-6" >
+                        <ul >
+                            <a href="index.html" style="text-decoration: none;">
+                                <li style="color:#fff;">HOME</li>
+                            </a>
+                            <a href="about.html" style="text-decoration: none;">
+                                <li style="color:#fff;">ABOUT US</li>
+                            </a>
+                            <a href="contact.html" style="text-decoration: none;">
+                                <li style="color:#fff;"> CONTACT US</li>
+                            </a>
+                            <a href="service.html" style="text-decoration: none;">
+                                <li style="color:#fff;"> SERVICES</li>
+                            </a>
+                            <a href="blog.html"style="text-decoration: none;">
+                                <li style="color:#fff;">BLOG</li>
+                            </a>
+                            <a href="portfolio.html" style="text-decoration: none;">
+                                <li style="color:#fff;">PORTFOLIO</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Thestashchennai@gmail.com</li>
+                            <li>CHROMPET & THIRUMUDIVAKKAM</li>
+                            <li>+91 84019 55500 & +91 7824-855500</li>
+
+                        </ul>
+                        <div style="display:flex; gap:20px;"">
+                    
+                    <a href=" https://www.instagram.com/stashsalons?igsh=MjNxaDRzdTVjeW03"><i
+                                class="fa-brands fa-3x fa-instagram" style="color: #D4A977;"></i></a>
+                            <a href=" "><i class="fa-brands fa-3x fa-facebook" style="color: #D4A977;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+           // Change images every 3 seconds
+           var images = [
+
+           "/assets/hero_slider_03.jpg",
+           "/assets/hero_slider_05.jpg",
+           // Add more image URLs as needed
+       ];
+
+       var currentIndex = 0;
+
+       function changeImage() {
+           document.getElementById("backgroundimage").src = images[currentIndex];
+           document.getElementById("background").src = images[currentIndex];
+           currentIndex = (currentIndex + 1) % images.length;
+           setTimeout(changeImage, 3000); // Change image every 3 seconds
+       }
+       window.onload = changeImage;
+
+       function togglePricelist(type) {
+        $('.pricelist').hide(); // Hide all pricelists initially
+        $('.pricelist.' + type).show(); // Show the pricelist corresponding to the clicked type
+    }
+
+    
+
+    </script>
+</body>
+
+</html>
